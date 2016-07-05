@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'catalogs/version'
+require 'solidus_categories/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "solidus_categories"
-  spec.version       = Catalogs::VERSION
+  spec.version       = SolidusCategories::VERSION
   spec.authors       = ["prasanthi"]
   spec.email         = ["prasanthi.ym@gmail.com"]
 
