@@ -1,6 +1,6 @@
 require 'rails/generators'
 
-namespace :solidus_categories do
+namespace :soliduscategories do
   desc "Copies locale files"
   task :install do
     source = File.join(Gem.loaded_specs["solidus_categories"].full_gem_path, "config/locales", "en.yml")
