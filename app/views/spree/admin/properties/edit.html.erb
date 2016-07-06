@@ -14,7 +14,7 @@
 
 <%= form_for [:admin, @property] do |f| %>
   <fieldset class="no-border-top">
-    <%= render :partial => 'form', :locals => { :f => f } %>
+    <%= render :partial => 'editform', :locals => { :f => f } %>
     <div class="filter-actions actions">
       <%= button Spree.t('actions.update'), 'refresh' %>
       <%= button_link_to Spree.t('actions.cancel'), admin_properties_path, :icon => 'remove' %>
