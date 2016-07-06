@@ -25,7 +25,7 @@ Or install it yourself as:
 
 Install gem intializers
   
-bundle exec rake solidus_categories:install
+bundle exec rails g solidus_categories:install
 
 
 ## Development
