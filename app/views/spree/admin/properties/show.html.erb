@@ -1,0 +1,15 @@
+<% content_for :page_title do %>
+  Property Show  
+<% end %>
+
+
+<% content_for :page_actions do %>
+  <li>
+    <%= button_link_to Spree.t(:back_to_properties_list), spree.admin_properties_path, :icon => 'arrow-left' %>
+  </li>
+  
+<% end %>
+
+<ol class="sortable_tree">
+  <%= build_server_tree @property,  :namespace => 'admin' ,type: :sortable %>
+</ol>

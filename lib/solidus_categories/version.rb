@@ -1,3 +1,3 @@
 module SolidusCategories
-  VERSION = "1.2"
+  VERSION = "2.1"
 end

@@ -1,0 +1,10 @@
+
+<table class="index sortable" id='listing_properties' >
+
+</table>
+
+
+<ol class="sortable_tree" >
+  <%= build_server_tree @properties, :type=> :sortable, :namespace => 'admin' ,:rebuild_url => rebuild_admin_properties_url %>
+</ol>
+

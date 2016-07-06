@@ -25,7 +25,8 @@ Or install it yourself as:
 
 Install gem intializers
   
-bundle exec rails g solidus_categories:install
+bundle exec rake soliduscategories:install
+bundle exec rake soliduscategories:copy_migrations
 
 
 ## Development
