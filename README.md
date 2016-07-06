@@ -9,7 +9,7 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'solidus_categories'
+gem 'solidus_categories' , :github => 'prasanthiym/solidus_categories'
 ```
 
 And then execute:
@@ -23,7 +23,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Install gem intializers
+  
+bundle exec rake solidus_categories:install
+
 
 ## Development
 
